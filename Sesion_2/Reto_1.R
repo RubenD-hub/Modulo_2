@@ -28,11 +28,3 @@ sd(x)
 # Grafica
 plot(x)
 
-
-# Funcion Moda
-getmode <- function(v) {
-  uniqv <- unique(v)
-  uniqv[which.max(tabulate(match(v, uniqv)))]
-}
-# Moda
-getmode(x)

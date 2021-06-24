@@ -62,7 +62,7 @@ if(x > 5) {
   print(paste(y, ", x=", round(x,2) ,"> 5"))
 } else {
   y <- FALSE
-  print(paste(y, ", x=", round(x,2) ," < 5"))
+  print(paste(y, ", x=", round(x,2) ,"> 5"))
 }
 
 

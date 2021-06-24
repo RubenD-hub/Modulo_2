@@ -17,6 +17,7 @@ getwd()
 
 # Fijando el directorio de trabajo
 
+# setwd(choose.dir(caption = "Elija Directorio"))
 setwd("C:/Users/ruben/Escritorio/Bedu/Modulo_2/Sesion_1/Data/") # Depende del usuario donde ubicar su wd
 
 # La función read.csv será util para leer fichero .csv

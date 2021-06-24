@@ -32,3 +32,9 @@ x <- sample(1:100, 100, replace = T) # Tomamos una muestra aleatoria de tamaño 
 table(x) # obtenemos las frecuencias absolutas de los valores de la muestra
 moda(x) # obtenemos la moda de los valores de la muestra
 
+f.abs <- table(x) # frecuencias absolutas
+max.f.abs <- max(f.abs) # obtenemos la máxima frecuencia absoluta
+pos.max <- which(f.abs == max.f.abs) # posición(es) de la(s) máxima(s) frecuencia(s) absoluta(s)
+print("La(s) moda(s) es(son): ")
+print(names(f.abs[pos.max]))
+paste("Con una frecuencia de: ", unique(f.abs[pos.max]))

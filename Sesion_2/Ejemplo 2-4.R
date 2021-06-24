@@ -13,7 +13,7 @@ cbind(data.frame(x = 1:10, y = 11:20), z = 21:30)
 # Función rbind
 
 rbind(1:10, 11:20, 21:30)
-rbind(1:10, matrix(11:30, ncol =10))
+rbind(1:10, matrix(11:30, ncol =2))
 rbind(data.frame(x = 1:10, y = 11:20), c(1,2))
 
 # La función rbind funciona de manera similar a cbind, pero en lugar 

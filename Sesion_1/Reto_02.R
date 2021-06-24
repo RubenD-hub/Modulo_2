@@ -16,6 +16,7 @@
   colnames(tAmazon) <- tAmazon[1,]
   
   row.names(tAmazon)
+  rownames(tAmazon)
   
 # 4.¿Cuál es el libro de menor y mayor precio?
   

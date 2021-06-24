@@ -1,4 +1,4 @@
-# Reto 1: Abre el fichero que se encuentra en el repositorio y obten sus características, para 
+# Reto 1: Abre el fichero que se encuentra en el repositorio y opten sus características, para 
 # finalmente imprimir los resultados en un fichero CSV.
 
 
@@ -20,6 +20,8 @@
 
 # 4. Escribir los resultados en un archivo .csv llamado res.netflix.csv (Hint: consulta la función 
 #    write.csv)
+  getwd()
+  setwd(choose.dir(caption = "Selec folder"))
   write.csv(net.2015, file = "res.netflix.csv")
 
     
